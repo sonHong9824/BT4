@@ -13,7 +13,7 @@
     </head>
     <body>
         <p> Here is the information that you entered:</p>
-        
+        <h2>Your information</h2>
         <label> Email:</label>
         <span> ${user.email}</span><br>
         <label>First Name:</label>
@@ -22,11 +22,11 @@
         <span> ${user.lastName}</span><br>
         <label> Date of birth:</label>
         <span> ${user.date}</span><br>
-        <label>How did you hear about us?</label>
+        <h2>How did you hear about us?</h2>
         <span> ${user.hear}</span><br>
-        <label>Would you like to receive announcements about new CDs and special offers?</label>
+        <h2>Would you like to receive announcements about new CDs and special offers?</h2>
         <span> ${user.announ}</span><br>
-        <label>Contact </label>
+        <h2>Contact </h2>
         <span> ${user.contact}</span><br>
         <p>To enter another email address, click on the Back button in your browser or the Return button shown below.</p>
 

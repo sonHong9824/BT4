@@ -50,6 +50,8 @@ public class InformationServlet extends HttpServlet {
             String date = request.getParameter("date");
             String hear = request.getParameter("idea");
             String[] announA = request.getParameterValues("announcements");
+            if(announA == null)
+                announA = new String[]{" "};
             String contact = request.getParameter("option"); 
             String announ ="";
             if(announA.length>0){
